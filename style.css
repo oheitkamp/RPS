@@ -1,31 +1,38 @@
 body {
-  font-family: Arial, sans-serif;
-  text-align: center;
-}
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
 
-.scoreboard {
-  margin: 20px;
-}
-
-.choices {
-  display: flex;
-  justify-content: center;
-}
-
-button {
-  font-size: 16px;
-  margin: 10px;
-  padding: 10px;
-  border: none;
-  border-radius: 5px;
-  background-color: #eee;
-  cursor: pointer;
-}
-
-button:hover {
-  background-color: #ddd;
-}
-
-button:active {
-  background-color: #ccc;
-}
+  p {
+    font-family: monospace;
+    font-size: 22px;
+    font-weight: 700;
+    color: #1f6464;
+  }
+  
+  .scoreboard {
+    margin: 20px;
+  }
+  
+  .choices {
+    display: flex;
+    justify-content: center;
+  }
+  
+  button {
+    font-size: 16px;
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #eee;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #ddd;
+  }
+  
+  button:active {
+    background-color: #ccc;
+  }
